@@ -9,6 +9,7 @@ import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.GrantPermissionRule
+import com.kaspersky.components.alluresupport.withForcedAllureSupport
 import com.kaspersky.kaspresso.kaspresso.Kaspresso
 import com.kaspersky.kaspresso.testcases.api.testcase.TestCase
 import io.qameta.allure.kotlin.Allure
@@ -26,25 +27,9 @@ import java.io.File
 
 @RunWith(AndroidJUnit4::class)
 class DeleteHabit :TestCase(
-    kaspressoBuilder = Kaspresso.Builder.simple()
-)  { companion object {
-    @JvmStatic
-    @BeforeClass
-    fun initAllure() {
-        val ctx = InstrumentationRegistry.getInstrumentation().targetContext
-
-        val resultsDir = File(ctx.getExternalFilesDir(null), "allure-results").apply { mkdirs() }
-
-        File(ctx.filesDir, "original_screenshots").mkdirs()
-
-        Log.i("ALLURE", "📂 Allure results dir = ${resultsDir.absolutePath}")
-
-        Allure.lifecycle = io.qameta.allure.android.AllureAndroidLifecycle(
-            io.qameta.allure.kotlin.FileSystemResultsWriter { resultsDir }
-        )
-    }
-}
-
+    kaspressoBuilder = Kaspresso.Builder.withForcedAllureSupport()
+)
+{
     @get:Rule
     val notifPermission: GrantPermissionRule =
         GrantPermissionRule.grant(android.Manifest.permission.POST_NOTIFICATIONS)

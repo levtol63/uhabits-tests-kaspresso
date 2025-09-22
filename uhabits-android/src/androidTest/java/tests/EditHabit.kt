@@ -9,6 +9,7 @@ import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.GrantPermissionRule
+import com.kaspersky.components.alluresupport.withForcedAllureSupport
 import com.kaspersky.kaspresso.kaspresso.Kaspresso
 import com.kaspersky.kaspresso.testcases.api.testcase.TestCase
 import org.hamcrest.Matchers
@@ -23,9 +24,10 @@ import utils.WelcomeSkipper
 import java.io.File
 
 @RunWith(AndroidJUnit4::class)
-class EditHabit : TestCase(
-    kaspressoBuilder = Kaspresso.Builder.simple()
-) {
+class EditHabit :TestCase(
+    kaspressoBuilder = Kaspresso.Builder.withForcedAllureSupport()
+)
+{
     @get:Rule
     val notifPermission: GrantPermissionRule =
         GrantPermissionRule.grant(android.Manifest.permission.POST_NOTIFICATIONS)
