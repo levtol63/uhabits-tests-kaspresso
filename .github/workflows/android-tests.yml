@@ -1,0 +1,32 @@
+name: Android UI Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  instrumented-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+
+      - name: Run UI tests
+        run: ./gradlew connectedAndroidTest
+
+      - name: Pull allure-results from emulator
+        run: adb pull /sdcard/allure-results ./allure-results
+
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-results
+          path: ./allure-results
