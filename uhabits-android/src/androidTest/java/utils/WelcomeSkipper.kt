@@ -13,8 +13,8 @@ object WelcomeSkipper {
     fun skipIfShown() {
         val skip = KButton { withId(R.id.skip) }
         try {
-            skip.isDisplayed()  // попробуем найти и показать
-            skip.click()        // и кликнуть
+            skip.isDisplayed()
+            skip.click()
             Log.i(TAG, "Экран приветствия показан, нажали Skip")
         } catch (e: NoMatchingViewException) {
             Log.i(TAG, "Кнопки Skip нет — продолжаем без неё")

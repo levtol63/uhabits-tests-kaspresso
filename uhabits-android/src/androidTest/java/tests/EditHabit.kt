@@ -24,8 +24,7 @@ import java.io.File
 
 @RunWith(AndroidJUnit4::class)
 class EditHabit : TestCase(
-    kaspressoBuilder = Kaspresso.Builder.simple() // без withForcedAllureSupport()
-    // и без Screenshot*/DumpLogcat интерсепторов
+    kaspressoBuilder = Kaspresso.Builder.simple()
 ) {
     @get:Rule
     val notifPermission: GrantPermissionRule =

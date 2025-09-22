@@ -3,9 +3,8 @@ package screens
 import com.kaspersky.kaspresso.screens.KScreen
 import io.github.kakaocup.kakao.text.KButton
 import io.github.kakaocup.kakao.text.KTextView
-import org.isoron.uhabits.R // сгенерированный R из вашего приложения
+import org.isoron.uhabits.R
 
-/** Главный экран со списком привычек */
 object ViewHabitScreen : KScreen<ViewHabitScreen>() {
     override val viewClass: Class<*>? = null
     override val layoutId: Int? = null

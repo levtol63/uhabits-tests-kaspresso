@@ -26,18 +26,15 @@ import java.io.File
 
 @RunWith(AndroidJUnit4::class)
 class DeleteHabit :TestCase(
-    kaspressoBuilder = Kaspresso.Builder.simple() // без withForcedAllureSupport()
-    // и без Screenshot*/DumpLogcat интерсепторов
+    kaspressoBuilder = Kaspresso.Builder.simple()
 )  { companion object {
     @JvmStatic
     @BeforeClass
     fun initAllure() {
         val ctx = InstrumentationRegistry.getInstrumentation().targetContext
 
-        // Куда будут писаться результаты
         val resultsDir = File(ctx.getExternalFilesDir(null), "allure-results").apply { mkdirs() }
 
-        // Хак: создаём пустую папку, чтобы AllureSupport не падал
         File(ctx.filesDir, "original_screenshots").mkdirs()
 
         Log.i("ALLURE", "📂 Allure results dir = ${resultsDir.absolutePath}")
