@@ -1,0 +1,71 @@
+--------- beginning of main
+10-18 23:20:40.876 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:40.884 23034 23051 I KASPRESSO: Logcat buffer may be dumped from 10-18 23:20:40.876
+10-18 23:20:40.963 23034 23051 I KASPRESSO: Starting video recording: Video_SortHabitsTest.mp4
+10-18 23:20:40.964 23034 23051 I KASPRESSO: Waiting for 3000 ms
+10-18 23:20:40.964 23034  5584 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-18 23:20:40.964 23034  5584 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-18 23:20:43.971 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:43.971 23034 23051 I KASPRESSO: BEFORE TEST SECTION
+10-18 23:20:43.971 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:43.972 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:43.972 23034 23051 I KASPRESSO: TEST SECTION
+10-18 23:20:43.972 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:43.978 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:43.979 23034 23051 I KASPRESSO: TEST STEP: "1. Создание привычки 1" in SortHabitsTest
+10-18 23:20:44.019 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:20:44.794 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonYesNo;)
+10-18 23:20:45.485 23034 23051 I KASPRESSO: TEST STEP: "1. Создание привычки 1" in SortHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 507 millis. 
+10-18 23:20:45.485 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:45.652 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.SortHabitsTest/test01_editHabit_createThreeSortByName_andCheckSorting/SortHabitsTest_step_1.png
+10-18 23:20:45.667 23034 23034 I KASPRESSO: replace text(Habit1) on AppCompatEditText(id=nameInput;hint=e.g. Exercise;)
+10-18 23:20:45.717 23034 23034 I KASPRESSO: single click on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:20:46.716 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:46.716 23034 23051 I KASPRESSO: TEST STEP: "2. Создание привычки 2" in SortHabitsTest
+10-18 23:20:46.739 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:20:47.366 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonYesNo;)
+10-18 23:20:47.874 23034 23051 I KASPRESSO: TEST STEP: "2. Создание привычки 2" in SortHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 158 millis. 
+10-18 23:20:47.874 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:48.058 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.SortHabitsTest/test01_editHabit_createThreeSortByName_andCheckSorting/SortHabitsTest_step_2.png
+10-18 23:20:48.062 23034 23034 I KASPRESSO: replace text(Change Habit 2) on AppCompatEditText(id=nameInput;hint=e.g. Exercise;)
+10-18 23:20:48.115 23034 23034 I KASPRESSO: single click on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:20:48.759 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:48.759 23034 23051 I KASPRESSO: TEST STEP: "3. Создание привычки 3" in SortHabitsTest
+10-18 23:20:48.764 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:20:49.415 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonYesNo;)
+10-18 23:20:50.044 23034 23051 I KASPRESSO: TEST STEP: "3. Создание привычки 3" in SortHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 285 millis. 
+10-18 23:20:50.044 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:50.171 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.SortHabitsTest/test01_editHabit_createThreeSortByName_andCheckSorting/SortHabitsTest_step_3.png
+10-18 23:20:50.175 23034 23034 I KASPRESSO: replace text(Test) on AppCompatEditText(id=nameInput;hint=e.g. Exercise;)
+10-18 23:20:50.290 23034 23034 I KASPRESSO: single click on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:20:51.235 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:51.235 23034 23051 I KASPRESSO: TEST STEP: "4. Сортировка списка по имени" in SortHabitsTest
+10-18 23:20:51.239 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=action_filter;desc=Filter;)
+10-18 23:20:51.799 23034 23034 I KASPRESSO: single click on MaterialTextView(id=title;text=Sort;)
+10-18 23:20:52.167 23034 23034 I KASPRESSO: single click on MaterialTextView(id=title;text=By name;)
+10-18 23:20:52.916 23034 23051 I KASPRESSO: TEST STEP: "4. Сортировка списка по имени" in SortHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 681 millis. 
+10-18 23:20:52.916 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:53.048 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.SortHabitsTest/test01_editHabit_createThreeSortByName_andCheckSorting/SortHabitsTest_step_4.png
+10-18 23:20:53.049 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:53.049 23034 23051 I KASPRESSO: TEST STEP: "5. Проверка первых трёх элементов после сортировки" in SortHabitsTest
+10-18 23:20:53.167 23034 23051 I KASPRESSO: TEST STEP: "5. Проверка первых трёх элементов после сортировки" in SortHabitsTest SUCCEED. It took 0 minutes, 0 seconds and 118 millis. 
+10-18 23:20:53.167 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:53.294 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.SortHabitsTest/test01_editHabit_createThreeSortByName_andCheckSorting/SortHabitsTest_step_5.png
+10-18 23:20:53.295 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:53.295 23034 23051 I KASPRESSO: TEST STEP: "6. Постусловие: Удаление привычек" in SortHabitsTest
+10-18 23:20:53.299 23034 23034 I KASPRESSO: single click on TextView(resource id not found;text=Habit1;)
+10-18 23:20:54.601 23034 23034 I KASPRESSO: single click on MaterialTextView(id=title;text=Delete;)
+10-18 23:20:55.069 23034 23034 I KASPRESSO: single click on MaterialButton(id=button1;text=Yes;)
+10-18 23:20:55.951 23034 23034 I KASPRESSO: single click on TextView(resource id not found;text=Change Habit 2;)
+10-18 23:20:57.138 23034 23034 I KASPRESSO: single click on MaterialTextView(id=title;text=Delete;)
+10-18 23:20:57.970 23034 23034 I KASPRESSO: single click on MaterialButton(id=button1;text=Yes;)
+10-18 23:20:58.680 23034 23051 I KASPRESSO: TEST STEP: "6. Постусловие: Удаление привычек" in SortHabitsTest SUCCEED. It took 0 minutes, 5 seconds and 385 millis. 
+10-18 23:20:58.680 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:58.863 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.SortHabitsTest/test01_editHabit_createThreeSortByName_andCheckSorting/SortHabitsTest_step_6.png
+10-18 23:20:58.864 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:58.864 23034 23051 I KASPRESSO: AFTER TEST SECTION
+10-18 23:20:58.864 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:58.869 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:58.869 23034 23051 I KASPRESSO: TEST PASSED
+10-18 23:20:58.869 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:58.877 23034 23051 I KASPRESSO: Dump logcat buffer to /data/user/0/org.isoron.uhabits/files/logcat/tests.SortHabitsTest/test01_editHabit_createThreeSortByName_andCheckSorting/TestLogcat.txt: logcat -b default -d -t "10-18 23:20:40.876" -s "KASPRESSO","KASPRESSO_TEST"

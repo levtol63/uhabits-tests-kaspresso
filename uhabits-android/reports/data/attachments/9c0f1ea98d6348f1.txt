@@ -1,0 +1,99 @@
+--------- beginning of main
+10-18 23:17:05.530 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:05.559 23034 23051 I KASPRESSO: Logcat buffer may be dumped from 10-18 23:17:05.530
+10-18 23:17:06.169 23034 23051 I KASPRESSO: Starting video recording: Video_CreateHabitsTest.mp4
+10-18 23:17:06.173 23034 23051 I KASPRESSO: Waiting for 3000 ms
+10-18 23:17:06.288 23034 23081 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-18 23:17:06.288 23034 23081 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-18 23:17:09.176 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:09.176 23034 23051 I KASPRESSO: BEFORE TEST SECTION
+10-18 23:17:09.176 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:09.179 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:09.179 23034 23051 I KASPRESSO: TEST SECTION
+10-18 23:17:09.179 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:09.182 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:09.182 23034 23051 I KASPRESSO: TEST STEP: "1. Открыть экран создания привычки с целью" in CreateHabitsTest
+10-18 23:17:09.308 23034 23034 I KASPRESSO: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>)
+10-18 23:17:09.309 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>) because of NoMatchingViewException
+10-18 23:17:11.954 23034 23034 I KASPRESSO: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>)
+10-18 23:17:11.955 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>) because of NoMatchingViewException
+10-18 23:17:14.638 23034 23034 I KASPRESSO: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>)
+10-18 23:17:14.640 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>) because of NoMatchingViewException
+10-18 23:17:17.369 23034 23034 I KASPRESSO: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>)
+10-18 23:17:17.371 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>) because of NoMatchingViewException
+10-18 23:17:19.906 23034 23051 E KASPRESSO: All attempts to interact for 10000 ms totally failed because of NoMatchingViewException
+10-18 23:17:19.954 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:17:21.252 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonMeasurable;)
+10-18 23:17:22.226 23034 23051 I KASPRESSO: TEST STEP: "1. Открыть экран создания привычки с целью" in CreateHabitsTest SUCCEED. It took 0 minutes, 13 seconds and 42 millis. 
+10-18 23:17:22.226 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:22.496 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithTarget_verifyListAndDetails/CreateHabitsTest_step_1.png
+10-18 23:17:22.499 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:22.499 23034 23051 I KASPRESSO: TEST STEP: "2. Заполнить поля и сохранить привычку" in CreateHabitsTest
+10-18 23:17:22.561 23034 23034 I KASPRESSO: replace text(Test) on AppCompatEditText(id=nameInput;hint=e.g. Run;)
+10-18 23:17:22.712 23034 23034 I KASPRESSO: replace text(How?) on AppCompatEditText(id=questionInput;hint=e.g. How many miles did you run today?;)
+10-18 23:17:22.723 23034 23034 I KASPRESSO: replace text(55) on AppCompatEditText(id=targetInput;hint=e.g. 15;)
+10-18 23:17:22.759 23034 23034 I KASPRESSO: replace text(M) on AppCompatEditText(id=unitInput;hint=e.g. miles;)
+10-18 23:17:22.796 23034 23034 I KASPRESSO: single click on MaterialTextView(id=numericalFrequencyPicker;text=Every day;)
+10-18 23:17:23.408 23034 23034 I KASPRESSO: single click on MaterialTextView(id=text1;text=Every week;)
+10-18 23:17:24.033 23034 23034 I KASPRESSO: single click on MaterialTextView(id=targetTypePicker;text=At least;)
+10-18 23:17:24.515 23034 23034 I KASPRESSO: single click on MaterialTextView(id=text1;text=At most;)
+10-18 23:17:24.833 23034 23034 I KASPRESSO: single click on MaterialTextView(id=reminderTimePicker;text=Off;)
+10-18 23:17:25.293 23034 23034 I KASPRESSO: single click on AppCompatButton(id=clear_button;text=Clear;)
+10-18 23:17:25.729 23034 23034 I KASPRESSO: replace text(New test) on AppCompatEditText(id=notesInput;hint=(Optional);)
+10-18 23:17:25.739 23034 23034 I KASPRESSO: single click on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:17:26.698 23034 23051 I KASPRESSO: TEST STEP: "2. Заполнить поля и сохранить привычку" in CreateHabitsTest SUCCEED. It took 0 minutes, 4 seconds and 199 millis. 
+10-18 23:17:26.698 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:26.797 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithTarget_verifyListAndDetails/CreateHabitsTest_step_2.png
+10-18 23:17:26.799 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:26.799 23034 23051 I KASPRESSO: TEST STEP: "3. Проверить, что новая привычка появилась в списке" in CreateHabitsTest
+10-18 23:17:26.804 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on TextView(resource id not found;text=Test;)
+10-18 23:17:26.808 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Test" on TextView(resource id not found;text=Test;)
+10-18 23:17:26.812 23034 23034 I KASPRESSO: single click on TextView(resource id not found;text=Test;)
+10-18 23:17:27.938 23034 23051 I KASPRESSO: TEST STEP: "3. Проверить, что новая привычка появилась в списке" in CreateHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 138 millis. 
+10-18 23:17:27.938 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:28.080 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithTarget_verifyListAndDetails/CreateHabitsTest_step_3.png
+10-18 23:17:28.080 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:28.080 23034 23051 I KASPRESSO: TEST STEP: "4. Проверить данные новой привычки на экране просмотра" in CreateHabitsTest
+10-18 23:17:28.085 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(resource id not found;text=Test;)
+10-18 23:17:28.087 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Test" on AppCompatTextView(resource id not found;text=Test;)
+10-18 23:17:28.088 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=questionLabel;text=How?;)
+10-18 23:17:28.089 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "How?" on MaterialTextView(id=questionLabel;text=How?;)
+10-18 23:17:28.090 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=targetText;text=55 M;)
+10-18 23:17:28.091 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "55 M" on MaterialTextView(id=targetText;text=55 M;)
+10-18 23:17:28.093 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=reminderLabel;text=Off;)
+10-18 23:17:28.095 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Off" on MaterialTextView(id=reminderLabel;text=Off;)
+10-18 23:17:28.096 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "New test" on MaterialTextView(id=habitNotes;text=New test;)
+10-18 23:17:28.098 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=frequencyLabel;text=Every week;)
+10-18 23:17:28.099 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Every week" on MaterialTextView(id=frequencyLabel;text=Every week;)
+10-18 23:17:28.100 23034 23051 I KASPRESSO: TEST STEP: "4. Проверить данные новой привычки на экране просмотра" in CreateHabitsTest SUCCEED. It took 0 minutes, 0 seconds and 20 millis. 
+10-18 23:17:28.100 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:28.202 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithTarget_verifyListAndDetails/CreateHabitsTest_step_4.png
+10-18 23:17:28.202 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:28.202 23034 23051 I KASPRESSO: TEST STEP: "5. Проверить данные новой привычки на экране изменения" in CreateHabitsTest
+10-18 23:17:28.205 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=action_edit_habit;desc=Edit;)
+10-18 23:17:29.138 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Test" on AppCompatEditText(id=nameInput;text=Test;hint=e.g. Run;)
+10-18 23:17:29.141 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "How?" on AppCompatEditText(id=questionInput;text=How?;hint=e.g. How many miles did you run today?;)
+10-18 23:17:29.142 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Off" on MaterialTextView(id=reminderTimePicker;text=Off;)
+10-18 23:17:29.145 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "New test" on AppCompatEditText(id=notesInput;text=New test;hint=(Optional);)
+10-18 23:17:29.147 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "55.0" on AppCompatEditText(id=targetInput;text=55.0;hint=e.g. 15;)
+10-18 23:17:29.149 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "M" on AppCompatEditText(id=unitInput;text=M;hint=e.g. miles;)
+10-18 23:17:29.151 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Every week" on MaterialTextView(id=numericalFrequencyPicker;text=Every week;)
+10-18 23:17:29.153 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "At most" on MaterialTextView(id=targetTypePicker;text=At most;)
+10-18 23:17:29.153 23034 23051 I KASPRESSO: TEST STEP: "5. Проверить данные новой привычки на экране изменения" in CreateHabitsTest SUCCEED. It took 0 minutes, 0 seconds and 951 millis. 
+10-18 23:17:29.153 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:29.252 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithTarget_verifyListAndDetails/CreateHabitsTest_step_5.png
+10-18 23:17:29.252 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:29.252 23034 23051 I KASPRESSO: TEST STEP: "6. Постусловие: Удаление привычки" in CreateHabitsTest
+10-18 23:17:30.421 23034 23034 I KASPRESSO: single click on AppCompatTextView(resource id not found;text=Test;)
+10-18 23:17:31.184 23034 23034 I KASPRESSO: single click on MaterialTextView(id=title;text=Delete;)
+10-18 23:17:31.943 23034 23034 I KASPRESSO: single click on MaterialButton(id=button1;text=Yes;)
+10-18 23:17:32.638 23034 23051 I KASPRESSO: TEST STEP: "6. Постусловие: Удаление привычки" in CreateHabitsTest SUCCEED. It took 0 minutes, 3 seconds and 385 millis. 
+10-18 23:17:32.638 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:32.851 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithTarget_verifyListAndDetails/CreateHabitsTest_step_6.png
+10-18 23:17:32.858 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:32.859 23034 23051 I KASPRESSO: AFTER TEST SECTION
+10-18 23:17:32.859 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:32.868 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:32.868 23034 23051 I KASPRESSO: TEST PASSED
+10-18 23:17:32.868 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:32.885 23034 23051 I KASPRESSO: Dump logcat buffer to /data/user/0/org.isoron.uhabits/files/logcat/tests.CreateHabitsTest/createHabitWithTarget_verifyListAndDetails/TestLogcat.txt: logcat -b default -d -t "10-18 23:17:05.530" -s "KASPRESSO","KASPRESSO_TEST"
