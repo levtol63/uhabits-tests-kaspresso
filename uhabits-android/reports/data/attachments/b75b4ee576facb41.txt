@@ -1,0 +1,62 @@
+--------- beginning of main
+10-18 23:19:52.522 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:19:52.526 23034 23051 I KASPRESSO: Logcat buffer may be dumped from 10-18 23:19:52.522
+10-18 23:19:52.656 23034 23051 I KASPRESSO: Starting video recording: Video_FilterHabitsTest.mp4
+10-18 23:19:52.657 23034 23051 I KASPRESSO: Waiting for 3000 ms
+10-18 23:19:52.659 23034  3610 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-18 23:19:52.659 23034  3610 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-18 23:19:55.663 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:19:55.663 23034 23051 I KASPRESSO: BEFORE TEST SECTION
+10-18 23:19:55.663 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:19:55.667 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:19:55.667 23034 23051 I KASPRESSO: TEST SECTION
+10-18 23:19:55.667 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:19:55.671 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:19:55.671 23034 23051 I KASPRESSO: TEST STEP: "1. Предусловие: Создание привычки1" in FilterHabitsTest
+10-18 23:19:55.707 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:19:56.304 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonYesNo;)
+10-18 23:19:56.889 23034 23051 I KASPRESSO: TEST STEP: "1. Предусловие: Создание привычки1" in FilterHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 218 millis. 
+10-18 23:19:56.889 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:19:57.020 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.FilterHabitsTest/verifyFilterArchive/FilterHabitsTest_step_1.png
+10-18 23:19:57.030 23034 23034 I KASPRESSO: replace text(Habit1) on AppCompatEditText(id=nameInput;hint=e.g. Exercise;)
+10-18 23:19:57.076 23034 23034 I KASPRESSO: single click on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:19:57.984 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:19:57.984 23034 23051 I KASPRESSO: TEST STEP: "2. Предусловие: Создание привычки2" in FilterHabitsTest
+10-18 23:19:57.988 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:19:58.589 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonYesNo;)
+10-18 23:19:59.254 23034 23051 I KASPRESSO: TEST STEP: "2. Предусловие: Создание привычки2" in FilterHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 270 millis. 
+10-18 23:19:59.254 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:19:59.446 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.FilterHabitsTest/verifyFilterArchive/FilterHabitsTest_step_2.png
+10-18 23:19:59.515 23034 23034 I KASPRESSO: replace text(Change Habit 2) on AppCompatEditText(id=nameInput;hint=e.g. Exercise;)
+10-18 23:19:59.534 23034 23034 I KASPRESSO: single click on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:20:00.172 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:00.172 23034 23051 I KASPRESSO: TEST STEP: "3. Архивация привычки через меню overflow" in FilterHabitsTest
+10-18 23:20:00.204 23034 23034 I KASPRESSO: long click on TextView(resource id not found;text=Habit1;)
+10-18 23:20:03.373 23034 23051 I KASPRESSO: TEST STEP: "3. Архивация привычки через меню overflow" in FilterHabitsTest SUCCEED. It took 0 minutes, 3 seconds and 198 millis. 
+10-18 23:20:03.374 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:03.585 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.FilterHabitsTest/verifyFilterArchive/FilterHabitsTest_step_3.png
+10-18 23:20:03.589 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:03.589 23034 23051 I KASPRESSO: TEST STEP: "4. Проверка фильтрации: скрытие заархивированных привычек" in FilterHabitsTest
+10-18 23:20:03.594 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=action_filter;desc=Filter;)
+10-18 23:20:04.089 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=title;text=Hide archived;)
+10-18 23:20:04.099 23034 23034 I KASPRESSO: single click on MaterialTextView(id=title;text=Hide archived;)
+10-18 23:20:04.906 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on TextView(resource id not found;text=Change Habit 2;)
+10-18 23:20:04.937 23034 23034 I KASPRESSO: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Habit1")
+10-18 23:20:04.937 23034 23051 I KASPRESSO: TEST STEP: "4. Проверка фильтрации: скрытие заархивированных привычек" in FilterHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 348 millis. 
+10-18 23:20:04.937 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:05.069 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.FilterHabitsTest/verifyFilterArchive/FilterHabitsTest_step_4.png
+10-18 23:20:05.070 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:05.071 23034 23051 I KASPRESSO: TEST STEP: "5. Постусловие: Удаление привычки2" in FilterHabitsTest
+10-18 23:20:05.076 23034 23034 I KASPRESSO: single click on TextView(resource id not found;text=Change Habit 2;)
+10-18 23:20:06.618 23034 23034 I KASPRESSO: single click on MaterialTextView(id=title;text=Delete;)
+10-18 23:20:07.293 23034 23034 I KASPRESSO: single click on MaterialButton(id=button1;text=Yes;)
+10-18 23:20:07.995 23034 23051 I KASPRESSO: TEST STEP: "5. Постусловие: Удаление привычки2" in FilterHabitsTest SUCCEED. It took 0 minutes, 2 seconds and 925 millis. 
+10-18 23:20:07.996 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:08.162 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.FilterHabitsTest/verifyFilterArchive/FilterHabitsTest_step_5.png
+10-18 23:20:08.166 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:08.166 23034 23051 I KASPRESSO: AFTER TEST SECTION
+10-18 23:20:08.166 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:08.171 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:08.171 23034 23051 I KASPRESSO: TEST PASSED
+10-18 23:20:08.171 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:08.178 23034 23051 I KASPRESSO: Dump logcat buffer to /data/user/0/org.isoron.uhabits/files/logcat/tests.FilterHabitsTest/verifyFilterArchive/TestLogcat.txt: logcat -b default -d -t "10-18 23:19:52.522" -s "KASPRESSO","KASPRESSO_TEST"

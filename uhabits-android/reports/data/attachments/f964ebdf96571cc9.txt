@@ -1,0 +1,41 @@
+--------- beginning of main
+10-18 23:18:50.277 23034 23051 I KASPRESSO: Logcat buffer may be dumped from 10-18 23:18:50.271
+10-18 23:18:50.511 23034 23051 I KASPRESSO: Starting video recording: Video_EditHabitScreenElementsTest.mp4
+10-18 23:18:50.512 23034 23051 I KASPRESSO: Waiting for 3000 ms
+10-18 23:18:50.513 23034 28618 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-18 23:18:50.513 23034 28618 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-18 23:18:53.516 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:53.516 23034 23051 I KASPRESSO: BEFORE TEST SECTION
+10-18 23:18:53.516 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:53.516 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:53.516 23034 23051 I KASPRESSO: TEST SECTION
+10-18 23:18:53.516 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:53.520 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:53.520 23034 23051 I KASPRESSO: TEST STEP: "1. Открыть экран создания привычки без цели" in EditHabitScreenElementsTest
+10-18 23:18:53.555 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:18:54.185 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonYesNo;)
+10-18 23:18:54.761 23034 23051 I KASPRESSO: TEST STEP: "1. Открыть экран создания привычки без цели" in EditHabitScreenElementsTest SUCCEED. It took 0 minutes, 1 seconds and 242 millis. 
+10-18 23:18:54.761 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:54.920 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.EditHabitScreenElementsTest/verifyCreateHabitWithoutTargetElements/EditHabitScreenElementsTest_step_1.png
+10-18 23:18:54.920 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:54.920 23034 23051 I KASPRESSO: TEST STEP: "2. Проверить отображение элементов на экране создания привычки без цели" in EditHabitScreenElementsTest
+10-18 23:18:54.929 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatEditText(id=nameInput;hint=e.g. Exercise;)
+10-18 23:18:54.941 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatEditText(id=questionInput;hint=e.g. Did you exercise today?;)
+10-18 23:18:54.947 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=boolean_frequency_picker;text=Every day;)
+10-18 23:18:54.952 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=reminderTimePicker;text=Off;)
+10-18 23:18:54.982 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatEditText(id=notesInput;hint=(Optional);)
+10-18 23:18:54.986 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatButton(id=colorButton;)
+10-18 23:18:54.990 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(resource id not found;text=Create habit;)
+10-18 23:18:54.997 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create habit" on AppCompatTextView(resource id not found;text=Create habit;)
+10-18 23:18:55.004 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:18:55.013 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "SAVE" on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:18:56.288 23034 23051 I KASPRESSO: TEST STEP: "2. Проверить отображение элементов на экране создания привычки без цели" in EditHabitScreenElementsTest SUCCEED. It took 0 minutes, 1 seconds and 368 millis. 
+10-18 23:18:56.288 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:56.400 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.EditHabitScreenElementsTest/verifyCreateHabitWithoutTargetElements/EditHabitScreenElementsTest_step_2.png
+10-18 23:18:56.401 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:56.401 23034 23051 I KASPRESSO: AFTER TEST SECTION
+10-18 23:18:56.401 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:56.402 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:56.402 23034 23051 I KASPRESSO: TEST PASSED
+10-18 23:18:56.402 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:56.409 23034 23051 I KASPRESSO: Dump logcat buffer to /data/user/0/org.isoron.uhabits/files/logcat/tests.EditHabitScreenElementsTest/verifyCreateHabitWithoutTargetElements/TestLogcat.txt: logcat -b default -d -t "10-18 23:18:50.271" -s "KASPRESSO","KASPRESSO_TEST"

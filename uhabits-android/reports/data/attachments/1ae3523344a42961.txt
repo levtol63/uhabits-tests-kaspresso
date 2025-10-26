@@ -1,0 +1,55 @@
+--------- beginning of main
+10-18 23:18:31.073 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:31.083 23034 23051 I KASPRESSO: Logcat buffer may be dumped from 10-18 23:18:31.073
+10-18 23:18:31.172 23034 23051 I KASPRESSO: Starting video recording: Video_EditHabitScreenElementsTest.mp4
+10-18 23:18:31.173 23034 23051 I KASPRESSO: Waiting for 3000 ms
+10-18 23:18:31.175 23034 28166 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-18 23:18:31.175 23034 28166 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-18 23:18:34.176 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:34.176 23034 23051 I KASPRESSO: BEFORE TEST SECTION
+10-18 23:18:34.176 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:34.176 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:34.176 23034 23051 I KASPRESSO: TEST SECTION
+10-18 23:18:34.176 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:34.179 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:34.179 23034 23051 I KASPRESSO: TEST STEP: "1. Открыть экран создания привычки с целью" in EditHabitScreenElementsTest
+10-18 23:18:34.207 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:18:34.784 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonMeasurable;)
+10-18 23:18:35.415 23034 23051 I KASPRESSO: TEST STEP: "1. Открыть экран создания привычки с целью" in EditHabitScreenElementsTest SUCCEED. It took 0 minutes, 1 seconds and 235 millis. 
+10-18 23:18:35.415 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:35.562 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.EditHabitScreenElementsTest/verifyCreateHabitWithTargetElements/EditHabitScreenElementsTest_step_1.png
+10-18 23:18:35.564 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:35.564 23034 23051 I KASPRESSO: TEST STEP: "2. Проверить отображение элементов на экране создания привычки с целью" in EditHabitScreenElementsTest
+10-18 23:18:35.571 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatEditText(id=nameInput;hint=e.g. Run;)
+10-18 23:18:35.573 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatEditText(id=questionInput;hint=e.g. How many miles did you run today?;)
+10-18 23:18:35.574 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatEditText(id=unitInput;hint=e.g. miles;)
+10-18 23:18:35.576 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatEditText(id=targetInput;hint=e.g. 15;)
+10-18 23:18:35.578 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=numericalFrequencyPicker;text=Every day;)
+10-18 23:18:35.580 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=targetTypePicker;text=At least;)
+10-18 23:18:35.582 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatEditText(id=notesInput;hint=(Optional);)
+10-18 23:18:35.583 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatButton(id=colorButton;)
+10-18 23:18:35.586 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(resource id not found;text=Create habit;)
+10-18 23:18:35.589 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create Habit" on AppCompatTextView(resource id not found;text=Create habit;)
+10-18 23:18:35.596 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create habit") because of AssertionFailedError
+10-18 23:18:35.625 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create habit") because of PerformException
+10-18 23:18:38.244 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create Habit" on AppCompatTextView(resource id not found;text=Create habit;)
+10-18 23:18:38.245 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create habit") because of AssertionFailedError
+10-18 23:18:38.249 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create habit") because of PerformException
+10-18 23:18:40.925 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create Habit" on AppCompatTextView(resource id not found;text=Create habit;)
+10-18 23:18:40.926 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create habit") because of AssertionFailedError
+10-18 23:18:40.929 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create habit") because of PerformException
+10-18 23:18:43.536 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create Habit" on AppCompatTextView(resource id not found;text=Create habit;)
+10-18 23:18:43.537 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create habit") because of AssertionFailedError
+10-18 23:18:43.541 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Create habit") because of PerformException
+10-18 23:18:46.164 23034 23051 E KASPRESSO: All attempts to interact for 10000 ms totally failed because of AssertionFailedError
+10-18 23:18:46.165 23034 23051 I KASPRESSO: TEST STEP: "2. Проверить отображение элементов на экране создания привычки с целью" in EditHabitScreenElementsTest FAILED. It took 0 minutes, 10 seconds and 600 millis. 
+10-18 23:18:46.165 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:46.287 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.EditHabitScreenElementsTest/verifyCreateHabitWithTargetElements/EditHabitScreenElementsTest_step_2_failure_AssertionFailedError.png
+10-18 23:18:46.298 23034 23051 I KASPRESSO: View hierarchy dumped to /data/user/0/org.isoron.uhabits/files/view_hierarchy/tests.EditHabitScreenElementsTest/verifyCreateHabitWithTargetElements/ViewHierarchy_MainTestSection_failure_AssertionFailedError.xml
+10-18 23:18:46.298 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:46.298 23034 23051 I KASPRESSO: AFTER TEST SECTION
+10-18 23:18:46.298 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:46.298 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:46.298 23034 23051 I KASPRESSO: TEST FAILED
+10-18 23:18:46.298 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:46.299 23034 23051 I KASPRESSO: Dump logcat buffer to /data/user/0/org.isoron.uhabits/files/logcat/tests.EditHabitScreenElementsTest/verifyCreateHabitWithTargetElements/TestLogcat.txt: logcat -b default -d -t "10-18 23:18:31.073" -s "KASPRESSO","KASPRESSO_TEST"
