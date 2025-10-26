@@ -1,0 +1,78 @@
+--------- beginning of main
+10-18 23:17:36.704 23034 23051 I KASPRESSO: Logcat buffer may be dumped from 10-18 23:17:36.674
+10-18 23:17:36.981 23034 23051 I KASPRESSO: Starting video recording: Video_CreateHabitsTest.mp4
+10-18 23:17:36.982 23034 23051 I KASPRESSO: Waiting for 3000 ms
+10-18 23:17:36.986 23034 24706 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-18 23:17:36.986 23034 24706 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-18 23:17:40.015 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:40.015 23034 23051 I KASPRESSO: BEFORE TEST SECTION
+10-18 23:17:40.015 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:40.018 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:40.018 23034 23051 I KASPRESSO: TEST SECTION
+10-18 23:17:40.018 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:40.022 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:40.022 23034 23051 I KASPRESSO: TEST STEP: "1. Открыть экран создания привычки без цели" in CreateHabitsTest
+10-18 23:17:40.071 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:17:40.596 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonYesNo;)
+10-18 23:17:41.305 23034 23051 I KASPRESSO: TEST STEP: "1. Открыть экран создания привычки без цели" in CreateHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 281 millis. 
+10-18 23:17:41.305 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:41.472 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithoutTarget_verifyListAndDetails/CreateHabitsTest_step_1.png
+10-18 23:17:41.473 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:41.473 23034 23051 I KASPRESSO: TEST STEP: "2. Заполнить поля и сохранить привычку" in CreateHabitsTest
+10-18 23:17:41.487 23034 23034 I KASPRESSO: replace text(Habit1) on AppCompatEditText(id=nameInput;hint=e.g. Exercise;)
+10-18 23:17:41.537 23034 23034 I KASPRESSO: replace text(What?) on AppCompatEditText(id=questionInput;hint=e.g. Did you exercise today?;)
+10-18 23:17:41.625 23034 23034 I KASPRESSO: single click on MaterialTextView(id=boolean_frequency_picker;text=Every day;)
+10-18 23:17:42.156 23034 23034 I KASPRESSO: single click on MaterialRadioButton(id=xTimesPerWeekRadioButton;)
+10-18 23:17:42.438 23034 23034 I KASPRESSO: single click on MaterialButton(id=button1;text=Save;)
+10-18 23:17:43.020 23034 23034 I KASPRESSO: single click on MaterialTextView(id=reminderTimePicker;text=Off;)
+10-18 23:17:43.371 23034 23034 I KASPRESSO: single click on AppCompatButton(id=clear_button;text=Clear;)
+10-18 23:17:43.652 23034 23034 I KASPRESSO: replace text(Notes) on AppCompatEditText(id=notesInput;hint=(Optional);)
+10-18 23:17:43.660 23034 23034 I KASPRESSO: single click on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:17:45.075 23034 23051 I KASPRESSO: TEST STEP: "2. Заполнить поля и сохранить привычку" in CreateHabitsTest SUCCEED. It took 0 minutes, 3 seconds and 601 millis. 
+10-18 23:17:45.075 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:45.260 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithoutTarget_verifyListAndDetails/CreateHabitsTest_step_2.png
+10-18 23:17:45.261 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:45.261 23034 23051 I KASPRESSO: TEST STEP: "3. Проверить, что новая привычка появилась в списке" in CreateHabitsTest
+10-18 23:17:45.273 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on TextView(resource id not found;text=Habit1;)
+10-18 23:17:45.280 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Habit1" on TextView(resource id not found;text=Habit1;)
+10-18 23:17:45.299 23034 23034 I KASPRESSO: single click on TextView(resource id not found;text=Habit1;)
+10-18 23:17:46.605 23034 23051 I KASPRESSO: TEST STEP: "3. Проверить, что новая привычка появилась в списке" in CreateHabitsTest SUCCEED. It took 0 minutes, 1 seconds and 344 millis. 
+10-18 23:17:46.605 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:46.763 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithoutTarget_verifyListAndDetails/CreateHabitsTest_step_3.png
+10-18 23:17:46.764 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:46.764 23034 23051 I KASPRESSO: TEST STEP: "4. Проверить данные новой привычки на экране просмотра" in CreateHabitsTest
+10-18 23:17:46.772 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(resource id not found;text=Habit1;)
+10-18 23:17:46.780 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Habit1" on AppCompatTextView(resource id not found;text=Habit1;)
+10-18 23:17:46.802 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=questionLabel;text=What?;)
+10-18 23:17:46.804 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "What" on MaterialTextView(id=questionLabel;text=What?;)
+10-18 23:17:46.807 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296724/org.isoron.uhabits:id/questionLabel>) because of AssertionFailedError
+10-18 23:17:46.816 23034 23051 I KASPRESSO: View autoScroll successfully performed.
+10-18 23:17:46.817 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "What" on MaterialTextView(id=questionLabel;text=What?;)
+10-18 23:17:46.818 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296724/org.isoron.uhabits:id/questionLabel>) because of AssertionFailedError
+10-18 23:17:49.497 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "What" on MaterialTextView(id=questionLabel;text=What?;)
+10-18 23:17:49.499 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296724/org.isoron.uhabits:id/questionLabel>) because of AssertionFailedError
+10-18 23:17:49.505 23034 23051 I KASPRESSO: View autoScroll successfully performed.
+10-18 23:17:49.509 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "What" on MaterialTextView(id=questionLabel;text=What?;)
+10-18 23:17:49.510 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296724/org.isoron.uhabits:id/questionLabel>) because of AssertionFailedError
+10-18 23:17:52.220 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "What" on MaterialTextView(id=questionLabel;text=What?;)
+10-18 23:17:52.222 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296724/org.isoron.uhabits:id/questionLabel>) because of AssertionFailedError
+10-18 23:17:52.225 23034 23051 I KASPRESSO: View autoScroll successfully performed.
+10-18 23:17:52.229 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "What" on MaterialTextView(id=questionLabel;text=What?;)
+10-18 23:17:52.230 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296724/org.isoron.uhabits:id/questionLabel>) because of AssertionFailedError
+10-18 23:17:54.855 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "What" on MaterialTextView(id=questionLabel;text=What?;)
+10-18 23:17:54.856 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296724/org.isoron.uhabits:id/questionLabel>) because of AssertionFailedError
+10-18 23:17:54.860 23034 23051 I KASPRESSO: View autoScroll successfully performed.
+10-18 23:17:54.863 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "What" on MaterialTextView(id=questionLabel;text=What?;)
+10-18 23:17:54.864 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296724/org.isoron.uhabits:id/questionLabel>) because of AssertionFailedError
+10-18 23:17:57.496 23034 23051 E KASPRESSO: All attempts to interact for 10000 ms totally failed because of AssertionFailedError
+10-18 23:17:57.496 23034 23051 I KASPRESSO: TEST STEP: "4. Проверить данные новой привычки на экране просмотра" in CreateHabitsTest FAILED. It took 0 minutes, 10 seconds and 732 millis. 
+10-18 23:17:57.497 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:17:57.621 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.CreateHabitsTest/createHabitWithoutTarget_verifyListAndDetails/CreateHabitsTest_step_4_failure_AssertionFailedError.png
+10-18 23:17:57.645 23034 23051 I KASPRESSO: View hierarchy dumped to /data/user/0/org.isoron.uhabits/files/view_hierarchy/tests.CreateHabitsTest/createHabitWithoutTarget_verifyListAndDetails/ViewHierarchy_MainTestSection_failure_AssertionFailedError.xml
+10-18 23:17:57.645 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:57.645 23034 23051 I KASPRESSO: AFTER TEST SECTION
+10-18 23:17:57.645 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:57.646 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:57.646 23034 23051 I KASPRESSO: TEST FAILED
+10-18 23:17:57.646 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:17:57.647 23034 23051 I KASPRESSO: Dump logcat buffer to /data/user/0/org.isoron.uhabits/files/logcat/tests.CreateHabitsTest/createHabitWithoutTarget_verifyListAndDetails/TestLogcat.txt: logcat -b default -d -t "10-18 23:17:36.674" -s "KASPRESSO","KASPRESSO_TEST"

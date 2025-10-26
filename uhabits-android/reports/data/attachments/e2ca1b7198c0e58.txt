@@ -1,0 +1,46 @@
+--------- beginning of main
+10-18 23:18:18.724 23034 23051 I KASPRESSO: Logcat buffer may be dumped from 10-18 23:18:18.721
+10-18 23:18:18.832 23034 23051 I KASPRESSO: Starting video recording: Video_DeleteHabitTest.mp4
+10-18 23:18:18.833 23034 23051 I KASPRESSO: Waiting for 3000 ms
+10-18 23:18:18.834 23034 27144 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-18 23:18:18.834 23034 27144 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-18 23:18:21.837 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:21.837 23034 23051 I KASPRESSO: BEFORE TEST SECTION
+10-18 23:18:21.837 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:21.837 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:21.837 23034 23051 I KASPRESSO: TEST SECTION
+10-18 23:18:21.837 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:21.843 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:21.843 23034 23051 I KASPRESSO: TEST STEP: "1. Предусловие: Создание привычки с целью" in DeleteHabitTest
+10-18 23:18:21.876 23034 23034 I KASPRESSO: single click on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:18:22.550 23034 23034 I KASPRESSO: single click on LinearLayout(id=buttonMeasurable;)
+10-18 23:18:23.335 23034 23051 I KASPRESSO: TEST STEP: "1. Предусловие: Создание привычки с целью" in DeleteHabitTest SUCCEED. It took 0 minutes, 1 seconds and 493 millis. 
+10-18 23:18:23.335 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:23.528 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.DeleteHabitTest/deleteHabitWithTarget_verifyRemoved/DeleteHabitTest_step_1.png
+10-18 23:18:23.533 23034 23034 I KASPRESSO: replace text(Test) on AppCompatEditText(id=nameInput;hint=e.g. Run;)
+10-18 23:18:23.564 23034 23034 I KASPRESSO: replace text(55) on AppCompatEditText(id=targetInput;hint=e.g. 15;)
+10-18 23:18:23.574 23034 23034 I KASPRESSO: replace text(M) on AppCompatEditText(id=unitInput;hint=e.g. miles;)
+10-18 23:18:23.656 23034 23034 I KASPRESSO: single click on MaterialButton(id=buttonSave;text=Save;)
+10-18 23:18:24.324 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:24.324 23034 23051 I KASPRESSO: TEST STEP: "2. Удаление привычки с целью" in DeleteHabitTest
+10-18 23:18:24.327 23034 23034 I KASPRESSO: single click on TextView(resource id not found;text=Test;)
+10-18 23:18:25.695 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialTextView(id=title;text=Delete;)
+10-18 23:18:25.698 23034 23034 I KASPRESSO: single click on MaterialTextView(id=title;text=Delete;)
+10-18 23:18:26.510 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on MaterialButton(id=button1;text=Yes;)
+10-18 23:18:26.512 23034 23034 I KASPRESSO: single click on MaterialButton(id=button1;text=Yes;)
+10-18 23:18:27.452 23034 23051 I KASPRESSO: TEST STEP: "2. Удаление привычки с целью" in DeleteHabitTest SUCCEED. It took 0 minutes, 3 seconds and 128 millis. 
+10-18 23:18:27.452 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:27.585 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.DeleteHabitTest/deleteHabitWithTarget_verifyRemoved/DeleteHabitTest_step_2.png
+10-18 23:18:27.586 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:27.586 23034 23051 I KASPRESSO: TEST STEP: "3. Проверить, что привычка с целью удалена из списка привычек" in DeleteHabitTest
+10-18 23:18:27.599 23034 23034 I KASPRESSO: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Test")
+10-18 23:18:27.599 23034 23051 I KASPRESSO: TEST STEP: "3. Проверить, что привычка с целью удалена из списка привычек" in DeleteHabitTest SUCCEED. It took 0 minutes, 0 seconds and 13 millis. 
+10-18 23:18:27.599 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:18:27.709 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.DeleteHabitTest/deleteHabitWithTarget_verifyRemoved/DeleteHabitTest_step_3.png
+10-18 23:18:27.710 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:27.710 23034 23051 I KASPRESSO: AFTER TEST SECTION
+10-18 23:18:27.710 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:27.710 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:27.710 23034 23051 I KASPRESSO: TEST PASSED
+10-18 23:18:27.710 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:18:27.712 23034 23051 I KASPRESSO: Dump logcat buffer to /data/user/0/org.isoron.uhabits/files/logcat/tests.DeleteHabitTest/deleteHabitWithTarget_verifyRemoved/TestLogcat.txt: logcat -b default -d -t "10-18 23:18:18.721" -s "KASPRESSO","KASPRESSO_TEST"

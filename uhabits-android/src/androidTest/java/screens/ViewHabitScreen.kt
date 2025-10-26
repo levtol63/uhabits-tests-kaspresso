@@ -10,6 +10,10 @@ object ViewHabitScreen : KScreen<ViewHabitScreen>() {
     override val layoutId: Int? = null
     val screenTitle1 = KTextView { withText("Habit1") }
     val screenTitle2 = KTextView { withText("Change Habit 2") }
+    val screenTitle3 = KTextView { withText("Test") }
+    val screenTitle4 = KTextView { withText("Name Habit Test") }
+
+    val target = KTextView { withId(R.id.targetText) }
 
     val questionLabel = KTextView { withId(R.id.questionLabel) }
     val frequencyLabel = KTextView { withId(R.id.frequencyLabel) }
