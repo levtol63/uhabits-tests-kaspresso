@@ -1,0 +1,47 @@
+--------- beginning of main
+10-18 23:20:12.225 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:12.231 23034 23051 I KASPRESSO: Logcat buffer may be dumped from 10-18 23:20:12.225
+10-18 23:20:12.372 23034 23051 I KASPRESSO: Starting video recording: Video_ListHabitScreenElementsTest.mp4
+10-18 23:20:12.373 23034 23051 I KASPRESSO: Waiting for 3000 ms
+10-18 23:20:12.376 23034  5420 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-18 23:20:12.376 23034  5420 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-18 23:20:15.378 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:15.378 23034 23051 I KASPRESSO: BEFORE TEST SECTION
+10-18 23:20:15.378 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:15.379 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:15.379 23034 23051 I KASPRESSO: TEST SECTION
+10-18 23:20:15.379 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:15.385 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:15.385 23034 23051 I KASPRESSO: TEST STEP: "1. Проверка элементов на экране списка привычек" in ListHabitScreenElementsTest
+10-18 23:20:15.422 23034 23034 I KASPRESSO: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>)
+10-18 23:20:15.424 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>) because of NoMatchingViewException
+10-18 23:20:18.071 23034 23034 I KASPRESSO: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>)
+10-18 23:20:18.072 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>) because of NoMatchingViewException
+10-18 23:20:20.814 23034 23034 I KASPRESSO: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>)
+10-18 23:20:20.815 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>) because of NoMatchingViewException
+10-18 23:20:23.530 23034 23034 I KASPRESSO: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>)
+10-18 23:20:23.531 23034 23051 E KASPRESSO: Failed to interact with view matching: (view.getId() is <2131296782/org.isoron.uhabits:id/skip>) because of NoMatchingViewException
+10-18 23:20:26.240 23034 23051 E KASPRESSO: All attempts to interact for 10000 ms totally failed because of NoMatchingViewException
+10-18 23:20:26.253 23034 23034 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Habits" on AppCompatTextView(resource id not found;text=Habits;)
+10-18 23:20:26.256 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on ActionMenuItemView(id=actionCreateHabit;desc=Add habit;)
+10-18 23:20:26.257 23034 23034 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on ActionMenuItemView(id=action_filter;desc=Filter;)
+10-18 23:20:26.266 23034 23034 I KASPRESSO: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "You have no active habits")
+10-18 23:20:26.267 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "You have no active habits") because of NoMatchingViewException
+10-18 23:20:29.010 23034 23034 I KASPRESSO: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "You have no active habits")
+10-18 23:20:29.011 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "You have no active habits") because of NoMatchingViewException
+10-18 23:20:31.747 23034 23034 I KASPRESSO: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "You have no active habits")
+10-18 23:20:31.749 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "You have no active habits") because of NoMatchingViewException
+10-18 23:20:34.315 23034 23034 I KASPRESSO: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "You have no active habits")
+10-18 23:20:34.316 23034 23051 E KASPRESSO: Failed to interact with view matching: (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "You have no active habits") because of NoMatchingViewException
+10-18 23:20:37.035 23034 23051 E KASPRESSO: All attempts to interact for 10000 ms totally failed because of NoMatchingViewException
+10-18 23:20:37.041 23034 23051 I KASPRESSO: TEST STEP: "1. Проверка элементов на экране списка привычек" in ListHabitScreenElementsTest FAILED. It took 0 minutes, 21 seconds and 650 millis. 
+10-18 23:20:37.041 23034 23051 I KASPRESSO: ___________________________________________________________________________
+10-18 23:20:37.207 23034 23051 I KASPRESSO: Screenshot saved to /data/user/0/org.isoron.uhabits/files/screenshots/tests.ListHabitScreenElementsTest/listHabitScreenElementsVisible/ListHabitScreenElementsTest_step_1_failure_NoMatchingViewException.png
+10-18 23:20:37.240 23034 23051 I KASPRESSO: View hierarchy dumped to /data/user/0/org.isoron.uhabits/files/view_hierarchy/tests.ListHabitScreenElementsTest/listHabitScreenElementsVisible/ViewHierarchy_MainTestSection_failure_NoMatchingViewException.xml
+10-18 23:20:37.240 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:37.240 23034 23051 I KASPRESSO: AFTER TEST SECTION
+10-18 23:20:37.240 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:37.241 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:37.241 23034 23051 I KASPRESSO: TEST FAILED
+10-18 23:20:37.241 23034 23051 I KASPRESSO: ---------------------------------------------------------------------------
+10-18 23:20:37.242 23034 23051 I KASPRESSO: Dump logcat buffer to /data/user/0/org.isoron.uhabits/files/logcat/tests.ListHabitScreenElementsTest/listHabitScreenElementsVisible/TestLogcat.txt: logcat -b default -d -t "10-18 23:20:12.225" -s "KASPRESSO","KASPRESSO_TEST"
